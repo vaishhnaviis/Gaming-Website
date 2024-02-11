@@ -1,0 +1,94 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.out1 {
+    background-color: rgb(20, 20, 20); 
+    border: 1rem;
+    border-color: azure;
+    height: 150px;
+    width: 1550px;
+    margin: 20px;
+    border-radius: 3%;
+    animation-name: out1;
+    animation-duration: 50s;
+    animation-direction:alternate;
+    animation-iteration-count:1 ;
+  
+  }
+  .ing1{
+    background-color: rebeccapurple;
+    background-size: contain;
+    height: 120px;
+    width: 730px;
+    float:left;
+    margin: 20px;
+    border: 5px;
+    border-radius: 3%;
+    shape-outside: border-box;
+    animation-name: out1;
+    animation-duration: 50s;
+    animation-direction:alternate;
+    animation-iteration-count:1 ;
+    
+  }
+  .int1{
+    background-color: rebeccapurple;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    background-size: cover;
+    height: 120px;
+    width: 730px;
+    float:right;
+    margin: 20px;
+    border: 5px;
+    border-radius: 3%;
+    shape-outside: border-box;
+    animation-name: out1;
+    animation-duration: 50s;
+    animation-direction:alternate;
+    animation-iteration-count:1 ;
+  }
+  @keyframes out1
+  {
+    0%   {left:500px;top:0px;}
+    50%  {left:925px; top:0px;}
+    100% {left:500px; top:0px;}
+  }
+.out{
+  background-color: rgb(20, 20, 20); 
+    border: 1rem;
+    border-color: azure;
+    height: 550px;
+    width: 470px;
+    margin: 20px;
+    border-radius: 3%;
+    display: inline-block;
+}
+.text{
+  background-color: rgb(129, 209, 38); 
+  border: 1rem;
+  border-color: azure;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 45px;
+  height: 100px;
+  width: 430px;
+  margin: 20px;
+  border-radius: 3%;
+  position: static;
+  display: block;
+}
+.pic{
+  background-color: rgb(235, 42, 42); 
+  background-size: contain;
+  border: 1rem;
+  border-color: azure;
+  height: 400px;
+  width: 430px;
+  margin: 20px;
+  border-radius: 3%;
+  position:static;
+  display: block;
+}
