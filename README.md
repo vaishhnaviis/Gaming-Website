@@ -1,6 +1,3 @@
-Here's a template for a README file that you can use for your repository, based on the provided information:
-
----
 
 # Game Collection
 
