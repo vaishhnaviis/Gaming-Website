@@ -9,8 +9,7 @@ Welcome to the Game Collection repository! This project is a collection of vario
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Deployment](#deployment)
 
 ## Overview
 
